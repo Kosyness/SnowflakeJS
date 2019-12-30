@@ -1,5 +1,5 @@
 {
-    "name": "snowflakejs",
+    "name": "@saryno/snowflakejs",
     "version": "0.0.1",
     "description": "The Go to Snowflake Library for JavaScript",
     "main": "dist/index.js",
@@ -8,7 +8,7 @@
         "test": "jest",
         "test:watch": "jest --watchAll",
         "dev": "ts-node-dev ./src/index.ts",
-        "publish": "tsc && npm publish"
+        "publish": "tsc && npm publish --access=public"
     },
     "author": "KKosyfarinis <KKosyfarinis@gmail.com>",
     "license": "ISC",

@@ -15,7 +15,7 @@ npm i --save snowflakejs
 First of all, as always, you have to import the module 
 
 ```ts
-import { Snowflake } from 'snowflakejs';
+import { Snowflake } from '@saryno/snowflakejs';
 ```
 
 Afterwards you can use the Snowflakes, to generate Unique IDs
@@ -49,7 +49,7 @@ Basically,
 ```ts
 import * as mongoose from 'mongoose';
 
-import { mongooseLink } from 'snowflakejs';
+import { mongooseLink } from '@saryno/snowflakejs';
 
 mongoose.connect(process.env.MONGO_URI, { }, (connection) => {
     mongooseLink(connection);
@@ -71,7 +71,7 @@ const myReallyCoolModel = new mongoose.model('AReallyCoolName', myReallyCoolSche
 Finally, you can use the Snowflakes as follows:
 
 ```ts
-import { Snowflake } from 'snowflakejs';
+import { Snowflake } from '@saryno/snowflakejs';
 
 const theDocumentToSave = new myReallyCoolDocument({
     _id: Snowflake.nextSync(),
