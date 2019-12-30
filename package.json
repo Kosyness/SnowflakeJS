@@ -7,10 +7,14 @@
         "build": "rimraf dist && tsc",
         "test": "jest",
         "test:watch": "jest --watchAll",
-        "dev": "ts-node-dev ./src/index.ts"
+        "dev": "ts-node-dev ./src/index.ts",
+        "publish": "tsc && npm publish"
     },
     "author": "KKosyfarinis <KKosyfarinis@gmail.com>",
     "license": "ISC",
+    "repository": {
+        "url": "git@github.com:KKosyfarinis/SnowflakeJS.git"
+    },
     "devDependencies": {
         "@types/benchmark": "^1.0.31",
         "@types/bson": "^4.0.1",
@@ -30,11 +34,10 @@
         "ts-jest": "^24.2.0",
         "ts-node": "^8.5.4",
         "ts-node-dev": "^1.0.0-pre.44",
-        "typescript": "^3.7.4"
+        "typescript": "^3.7.4",
+        "bson": "^4.0.2"
     },
     "dependencies": {
-        "bson": "^4.0.2",
-        "long": "^4.0.0",
-        "mongoose-long": "^0.2.1"
+        "long": "^4.0.0"
     }
 }

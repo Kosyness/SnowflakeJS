@@ -1,0 +1,8 @@
+.gitignore 
+.env
+/src
+/node_modules
+jest.config.js
+tsconfig.build.json
+tsconfig.json
+tslint.json
