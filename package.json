@@ -1,6 +1,6 @@
 {
     "name": "@saryno/snowflakejs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "The Go to Snowflake Library for JavaScript",
     "main": "dist/index.js",
     "scripts": {
