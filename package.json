@@ -43,7 +43,7 @@
         "bson": "^4.0.2"
     },
     "dependencies": {
-        "mongoose": "^5.8.3",
+        "mongoose": "^5.13.16",
         "long": "^4.0.0"
     }
 }
